@@ -1,0 +1,15 @@
+{
+    "name": "wesblackmore/ai-ebook-generation-user-management",
+    "description": "Generic PHP email+password and Google sign-in, registration, and password reset on SQLite.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo_sqlite": "*",
+        "ext-curl": "*",
+        "firebase/php-jwt": "^7.0"
+    },
+    "autoload": {
+        "files": ["src/autoload.php"]
+    }
+}
